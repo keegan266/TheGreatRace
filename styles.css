@@ -1,0 +1,11 @@
+.gameboard {
+    text-align: center;
+    max-width: 1000px;
+    max-height: 500px;
+    background-color: green;
+}
+
+.racetoken {
+    display: block;
+    width: 100px;
+}
