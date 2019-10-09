@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: black;    
 }
 
 .gameboard {
@@ -29,11 +29,6 @@ body {
     text-align: center;
 }
 
-.container {
-    border-top: 15px solid blue;
-    border-bottom: 15px solid blue;
-}
-
 .formContainer {
     text-align: center;
     padding-top: 25px;
@@ -53,4 +48,13 @@ body {
 
 #tie {
     opacity: 0;
+}
+
+#myVideo {
+    z-index: -1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
