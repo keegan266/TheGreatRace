@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .gameboard {
     text-align: center;
     max-width: 1000px;
@@ -17,6 +21,7 @@
     position: relative;
     left: 1000px;
     bottom: 150px;
+    max-width: 125px;
 }
 
 .winnerText {
@@ -32,4 +37,20 @@
 .formContainer {
     text-align: center;
     padding-top: 25px;
+}
+
+.controller {
+    width: 200px;
+}
+
+#greenwin {
+    opacity: 0;
+}
+
+#orangewin {
+    opacity: 0;
+}
+
+#tie {
+    opacity: 0;
 }

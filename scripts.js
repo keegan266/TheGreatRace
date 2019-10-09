@@ -14,16 +14,20 @@ function race() {
         console.log(token2Pos);
     }
     if (token1Pos >= 950 && token2Pos < 950) {
-        document.getElementById("staticEmail").value = "Green Ghost Got Pacman!";
+        document.getElementById("winnerText").value = "Green Ghost Got Pacman!";
+        document.getElementById("greenwin").style.opacity = "100";
     }
     else if (token2Pos >= 950 && token1Pos < 950) {
-        document.getElementById("staticEmail").value = "Orange Ghost Got Pacman!";
+        document.getElementById("winnerText").value = "Orange Ghost Got Pacman!";
+        document.getElementById("orangewin").style.opacity = "100";
     }
     else if (token1Pos == token2Pos) {
-        document.getElementById("staticEmail").value = "They Both Got Pacman!";
+        document.getElementById("winnerText").value = "They Both Got Pacman!";
+        document.getElementById("tie").style.opacity = "100";
     }    
 }
 
 function reset() {
     window.location.reload(true);
 }
+

@@ -13,6 +13,9 @@
     <body>
         <div class="container">
             <table>
+                <img id="greenwin" src="images/greenwin.png" alt="green won">
+                <img id="orangewin" src="images/orangewin.png" alt="orange won">
+                <img id="tie" src="images/tie.jpg" alt="they all won">
                 <tbody>
                     <tr>
                         <th><img class="racetoken" id="token1" src="images/green.png" alt="green"></th>                    
@@ -27,9 +30,9 @@
             </div>            
         </div>
         <div class="formContainer">
-            <button type="button" onclick="race()" class="btn btn-primary">Start Race</button>
-            <button type="button" onclick="reset()" class="btn btn-primary">Reset Race</button>
-            <input type="text" readonly class="form-control-plaintext winnerText" id="staticEmail" value="">    
+            <img class="controller" src="images/start.png" alt="start screen" onclick="race()">
+            <img class="controller" src="images/gameover.png" alt="end game" onclick="reset()">
+            <input type="text" readonly class="form-control-plaintext winnerText" id="winnerText" value="">    
         </div>
                 
         <!-- Optional JavaScript -->
